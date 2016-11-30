@@ -2,20 +2,23 @@ body {
   background-image: url("navidad.jpg");
 }
 .rodolfo {
-	width: 1956px;
-	height: 500px;
-	margin-left: -7px;
+	width: 277px;
+	height: 450px;
+	margin-left: 500px;
 	margin-top: 160px;
 	background: url('renito.png')left center;
-	animation: play 5.1s steps(1) infinite;
+	border:3px solid red;
+	animation: play 3.1s steps(1) infinite;
 }
 @keyframes play{
 
-1%{background-position: -120px 0}
-16% {background-position: -500px 0}
-50%{background-position:-960px 0}
-80%{background-position:-1300px 0}
-100%{background-position:-1956px 0}
+0%{background-position: 0 0}
+14% {background-position: -550px 0}
+28%{background-position:-830px 0}
+42%{background-position:-1100px 0}
+56%{background-position:-1390px	 0}
+70%{background-position:-1680px 0}
+84%{background-position:-1950px 0}
 }
 
 
