@@ -7,7 +7,6 @@ body {
 	margin-left: 500px;
 	margin-top: 160px;
 	background: url('renito.png')left center;
-	border:3px solid red;
 	animation: play 3.1s steps(1) infinite;
 }
 @keyframes play{
